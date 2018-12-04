@@ -1,0 +1,174 @@
+/***********************
+General
+***********************/
+
+#wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+a {
+  text-decoration: none;
+  border-color: #000;
+  font-size: 1.5em;
+}
+
+img {
+  max-width: 100%;
+}
+
+h3 {
+  margin: 0 0 1em 0;
+  font-size: 2em;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+/***********************
+Heading
+***********************/
+
+h1, h2 {
+  font-family: 'Special Elite', 'Vollkorn', cursive;
+  margin: 15px 0;
+  font-size: 2.5em;
+  font-weight: normal;
+  float: center;
+}
+
+/***********************
+Footer
+***********************/
+
+footer { 
+  font-size: 1em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #000;
+}
+
+/***********************
+Page: About
+***********************/
+
+.table-pic {
+  clear: both;
+  display: block;
+  margin: 0 auto 30px;
+  border: 2px solid #FFF;
+ width: 100%;
+}
+
+
+/***********************
+Color
+***********************/
+
+/* site body */
+body {
+  background-color: #B52209;
+}
+
+#wrapper {
+  color: #fff;
+}
+
+/* logo text */
+h1, h2 {
+  color: #fff;
+}
+
+/* links */
+a {
+  color: #fff;
+}
+
+/* selected link */
+a.selected, a:hover {
+  color: #f4f7f8;
+}
+
+footer {
+  color: #fff;
+}
+
+
+
+/***********************
+Table
+***********************/
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'PT Mono', 'Nunito', sans-serif;
+  color: #5CB579;
+}
+
+table {
+  max-width: 960px;
+  margin: 10px auto;
+}
+
+caption {
+  font-size: 1.6em;
+  font-weight: 400;
+  padding: 10px 0;
+  background: #B52209;
+  color: #fff;
+  border-bottom: 2px solid #FFF;
+}
+
+ /*#8a97a0*/
+
+thead th {
+  font-weight: 400;
+  color: #B52209;
+}
+
+tr {
+  background: #B52209;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+td {
+  text-align: left;
+  padding: 20px;
+  font-weight: 300;
+}
+
+tfoot tr {
+  background: none;
+}
+
+tfoot td {
+  padding: 10px 2px;
+  font-size: 1em;
+  color: #fff;
+}
+
+.right-table-row {
+  text-align: right;
+  padding-right:20px;
+ // border-right: 2px solid #FFF; 
+}
+
+.left-table-row {
+  text-align: left;
+  padding-left:20px; 
+ // border-left: 2px solid #FFF; 
+}
+
+.first-tr {
+  padding-top: 20px;
+}
